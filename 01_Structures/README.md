@@ -27,11 +27,14 @@ Each patient record stores:
 
 ---
 
-##  How to Run (Windows)
+## How to Run (Windows)
 
 ### Compile
 ```bash
 gcc patient_records.c -o patient_records.exe
+```
+
 ### Run
 ```bash
 .\patient_records.exe
+```
