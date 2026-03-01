@@ -32,3 +32,6 @@ Each patient record stores:
 ### Compile
 ```bash
 gcc patient_records.c -o patient_records.exe
+### Run
+```bash
+.\patient_records.exe
