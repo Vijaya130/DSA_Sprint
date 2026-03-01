@@ -22,7 +22,11 @@ void addPatient(Patient patients[], int *count) {
     printf("\nEnter Patient ID: ");
     scanf("%d", &p.patientID);
 
+<<<<<<< HEAD
     
+=======
+    // Check unique ID
+>>>>>>> 7d7eb87c5b0dd03eb0494e0f01ba12334a9d1ed6
     for (int i = 0; i < *count; i++) {
         if (patients[i].patientID == p.patientID) {
             printf("\n Patient ID already exists. Try a unique ID.\n");
@@ -71,7 +75,11 @@ void deletePatient(Patient patients[], int *count) {
         return;
     }
 
+<<<<<<< HEAD
     
+=======
+    // Shift left to delete
+>>>>>>> 7d7eb87c5b0dd03eb0494e0f01ba12334a9d1ed6
     for (int i = foundIndex; i < *count - 1; i++) {
         patients[i] = patients[i + 1];
     }
@@ -129,4 +137,8 @@ int main() {
                 printf("\n Invalid choice. Try again.\n");
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7d7eb87c5b0dd03eb0494e0f01ba12334a9d1ed6
