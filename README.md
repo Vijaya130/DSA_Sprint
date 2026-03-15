@@ -5,6 +5,21 @@
 ![Algorithms](https://img.shields.io/badge/Algorithms-Practice-orange)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Vijaya130/DSA_Sprint?style=social)
 
+
+##  Quick Navigation
+
+| Topic | Project |
+|------|------|
+| Structures | Hospital Patient Record System |
+| Stacks | Undo / Redo Text Editor |
+| Queues | Ticket Booking System |
+| Linked Lists | To-Do List Manager |
+| Trees | Directory Management System |
+| Graphs | City Navigation System |
+| Hashing | Employee Database |
+
+
+
 A structured collection of **Data Structures and Algorithms implementations in C**, built while learning and practicing core DSA concepts.
 
 This repository contains **topic-wise mini projects and implementations** that demonstrate how fundamental data structures can be applied to solve real-world problems.
