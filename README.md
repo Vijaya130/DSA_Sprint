@@ -1,5 +1,10 @@
 #  DSA SPRINT
 
+![C](https://img.shields.io/badge/C-Programming-blue)
+![DSA](https://img.shields.io/badge/Data%20Structures-Learning-success)
+![Algorithms](https://img.shields.io/badge/Algorithms-Practice-orange)
+![GitHub Repo stars](https://img.shields.io/github/stars/Vijaya130/DSA_Sprint?style=social)
+
 A structured collection of **Data Structures and Algorithms implementations in C**, built while learning and practicing core DSA concepts.
 
 This repository contains **topic-wise mini projects and implementations** that demonstrate how fundamental data structures can be applied to solve real-world problems.
