@@ -1,24 +1,64 @@
-Problems based on stacks
+Problems based on Stacks
 
-## Undo / Redo Text Editor (Stacks in C)
+# Undo Redo Text Editor (Stack in C)
 
-This program simulates the Undo and Redo functionality of a text editor using the Stack data structure.
+## Problem Statement
 
-### Features
-- Add text
-- Undo last operation
-- Redo undone operation
-- Display current text
+In a text editor, users often perform operations such as typing, deleting, or modifying text.
 
-### Data Structure Used
+To improve user convenience, the editor provides **Undo and Redo functionalities**.
+
+This project simulates a **Text Editor Undo/Redo system using Stack Data Structure in C**.
+
+---
+
+## Operations Implemented
+
+1. **Insert Operation**
+   Adds a new editing action to the stack.
+
+2. **Undo Operation**
+   Removes the most recent operation from the Undo stack and moves it to the Redo stack.
+
+3. **Redo Operation**
+   Reapplies the most recently undone operation.
+
+4. **Display Current Text**
+   Shows the current state of the text after operations.
+
+5. **Exit**
+   Terminates the program.
+
+---
+
+## Data Structure Used
+
 Stack
 
-### How to Run
-Compile:
+Two stacks are used:
+- **Undo Stack**
+- **Redo Stack**
+
+Stack follows the **LIFO principle (Last In First Out)**.
+
+---
+
+## How to Run
+
+Compile the program:
+
+```
 gcc undo_redo.c -o undo_redo.exe
+```
 
-Run:
+Run the program:
+
+```
 .\undo_redo.exe
+```
 
-### OUTPUT
-See the screenshot in the screenshots folder
+---
+
+## Sample Output
+
+![Undo Redo Output](Screenshots/undo_redo_output.png)

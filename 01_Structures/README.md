@@ -1,40 +1,73 @@
-# Hospital Patient Record System (Structures in C)
+Problems based on Structures
 
-##  Problem Statement
-Design and implement a C program using **structures** to manage hospital patient records efficiently.
+# Hospital Patient Records Management System (Structures in C)
 
-Each patient record stores:
-- Patient ID (unique identifier)
+## Problem Statement
+
+Design and implement a C program using **Structures** to maintain **patient records in a hospital system**.
+
+Each patient record contains:
+- Patient ID
 - Name
 - Age
-- Disease / Diagnosis
-- Doctor Assigned
+- Disease
+
+The system allows storing and managing patient information efficiently using structures.
 
 ---
 
-##  Operations Supported
-1. Add a new patient record  
-2. Delete a patient record (by ID)  
-3. Display all patient records  
-4. Exit program  
+## Operations Implemented
+
+1. **Add Patient**
+   Adds a new patient record to the system.
+
+2. **Display All Patients**
+   Displays the list of all patient records stored in the system.
+
+3. **Delete Patient**
+   Removes a patient record using the Patient ID.
+
+4. **Exit**
+   Terminates the program.
 
 ---
 
-##  Data Structure Used
-- `struct Patient`
-- Array of structures to store multiple patient records
-- Menu-driven program for user interaction
+## Data Structure Used
+
+Structure (struct)
+
+Each patient is represented using a structure containing:
+- ID
+- Name
+- Age
+- Disease
+
+Records are stored using an array of structures.
 
 ---
 
-## How to Run (Windows)
+## How to Run
 
-### Compile
-```bash
+Compile the program:
+
+```
 gcc patient_records.c -o patient_records.exe
 ```
 
-### Run
-```bash
+Run the program:
+
+```
 .\patient_records.exe
 ```
+
+---
+
+## Sample Output
+
+![Add Patient](Screenshots/output_1_add_patient.png.png)
+
+![Display All](Screenshots/output_2_display_all.png.png)
+
+![Delete Patient](Screenshots/output_3_delete.png.png)
+
+![Exit](Screenshots/output_4_exit.png.png)
